@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Silicon Sex</title>
+	<meta name="description" content="Silicon Sex – electronic / industrial music">
+
+	<style>
+		:root {
+			--bg: #0b0b0b;
+			--fg: #e5e5e5;
+			--muted: #9a9a9a;
+			--accent: #b30000;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			background: var(--bg);
+			color: var(--fg);
+			font-family: system-ui, -apple-system, BlinkMacSystemFont,
+				"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+		}
+
+		main {
+			padding: 2rem 1.5rem;
+			max-width: 480px;
+			width: 100%;
+		}
+
+		h1 {
+			margin: 0 0 0.5rem;
+			font-size: clamp(2rem, 6vw, 3rem);
+			letter-spacing: 0.15em;
+			font-weight: 600;
+		}
+
+		p {
+			margin: 0 0 2rem;
+			color: var(--muted);
+			font-size: 0.95rem;
+		}
+
+		nav {
+			display: flex;
+			flex-direction: column;
+			gap: 0.75rem;
+		}
+
+		a {
+			display: block;
+			padding: 0.75rem 1rem;
+			border: 1px solid #333;
+			color: var(--fg);
+			text-decoration: none;
+			letter-spacing: 0.1em;
+			transition: background 0.15s, border-color 0.15s;
+		}
+
+		a:hover {
+			background: #111;
+			border-color: var(--accent);
+		}
+
+		footer {
+			margin-top: 2.5rem;
+			font-size: 0.75rem;
+			color: #555;
+		}
+	</style>
+</head>
+
+<body>
+	<main>
+		<h1>SILICON&nbsp;SEX</h1>
+		<p>PURVEYORS OF TECHNOLOGY PERVERSIONS</p>
+
+		<nav>
+			<a href="https://siliconsex.bandcamp.com" target="_blank" rel="noopener">
+				BANDCAMP
+			</a>
+			<a href="https://www.youtube.com/@SILICONSEX" target="_blank" rel="noopener">
+				YOUTUBE
+			</a>
+			<a href="https://silicon-sex.itch.io" target="_blank" rel="noopener">
+				ITCH.IO
+			</a>
+			<!--a href=silicon-sex.itch.io"https://open.spotify.com/artist/XXXXXXXX" target="_blank" rel="noopener">
+				SPOTIFY
+			</a-->
+		</nav>
+
+		<footer>
+			© SILICON SEX
+		</footer>
+	</main>
+</body>
+</html>
