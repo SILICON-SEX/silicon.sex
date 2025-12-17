@@ -9,9 +9,9 @@
 
 	<style>
 		:root {
-			--bg: #0b0b0b;
+			--bg: #800020;
 			--fg: #e5e5e5;
-			--muted: #9a9a9a;
+			--muted: #FFD300;
 			--accent: #b30000;
 		}
 
@@ -38,6 +38,15 @@
 			width: 100%;
 		}
 
+		.logo {
+			display: block;
+			width: min(60vw, 220px);
+			max-width: 100%;
+			height: auto;
+			margin: 0 auto 1.25rem;
+			border-radius: 8px;
+		}
+
 		h1 {
 			margin: 0 0 0.5rem;
 			font-size: clamp(2rem, 6vw, 3rem);
@@ -60,7 +69,7 @@
 		a {
 			display: block;
 			padding: 0.75rem 1rem;
-			border: 1px solid #333;
+			border: 1px solid #FFF;
 			color: var(--fg);
 			text-decoration: none;
 			letter-spacing: 0.1em;
@@ -79,13 +88,17 @@
 		footer p {
 			margin: 0.3rem 0;
 			font-size: 0.6rem;
-			color: #555;
+			color: #000;
 		}
 	</style>
 </head>
 
 <body>
 	<main>
+	<img
+		src="MARIALEX.PNG"
+		alt="Silicon Sex logo"
+		class="logo">
 		<h1>SILICON&nbsp;SEX</h1>
 		<p>★ PURVEYORS OF TECHNOLOGY PERVERSION ★</p>
 
