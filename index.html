@@ -59,17 +59,39 @@
 			color: var(--muted);
 			font-size: 0.95rem;
 		}
-
+/*
 		nav {
 			display: flex;
 			flex-direction: column;
 			gap: 0.75rem;
 		}
+*/
+		.platforms {
+			display: flex;
+			justify-content: center;
+			gap: 1.25rem;
+			margin-top: 1.5rem;
+			flex-direction: column;
+		}
+
+		.platforms img {
+			height: clamp(32px, 7vw, 42px);
+			width: auto;
+			display: block;
+			opacity: 0.85;
+			transition: opacity 0.15s ease;
+			text-align: center;
+		}
+
+		.platforms a:hover img {
+			opacity: 1;
+		}
 
 		a {
 			display: block;
 			padding: 0.75rem 1rem;
-			border: 1px solid #FFF;
+			margin: 0 auto;
+		/*	border: 1px solid #FFF;*/
 			color: var(--fg);
 			text-decoration: none;
 			letter-spacing: 0.1em;
@@ -102,15 +124,15 @@
 		<h1>SILICON&nbsp;SEX</h1>
 		<p>★ PURVEYORS OF TECHNOLOGY PERVERSION ★</p>
 
-		<nav>
+		<nav class="platforms">
 			<a href="https://www.youtube.com/@SILICONSEX" target="_blank" rel="noopener">
-				YOUTUBE
+				<img src="yt_logo_white_digital.png" alt="YOUTUBE">
 			</a>
 			<a href="https://siliconsex.bandcamp.com" target="_blank" rel="noopener">
-				BANDCAMP
+				<img src="bandcamp-logotype-light-512.png" alt="BANDCAMP">
 			</a>
 			<a href="https://silicon-sex.itch.io" target="_blank" rel="noopener">
-				ITCH.IO
+				<img src="itchio-logo-white.png" alt="ITCH.IO">
 			</a>
 			<!--a href=silicon-sex.itch.io"https://open.spotify.com/artist/XXXXXXXX" target="_blank" rel="noopener">
 				SPOTIFY
